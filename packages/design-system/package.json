@@ -1,0 +1,21 @@
+{
+	"name": "@gbpf/design-system",
+	"version": "0.0.0",
+	"keywords": [],
+	"license": "MIT",
+	"main": "dist/gbpf-design-system.cjs.js",
+	"module": "dist/gbpf-design-system.esm.js",
+	"directories": {
+		"src": "src",
+		"test": "__tests__"
+	},
+	"scripts": {
+		"test": "node ./__tests__/design-system.test.js"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.24.0",
+		"@babel/preset-react": "^7.23.3",
+		"@preconstruct/cli": "^2.8.3",
+		"react": "^18.2.0"
+	}
+}

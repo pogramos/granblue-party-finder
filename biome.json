@@ -1,0 +1,25 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.5.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"ignore": [
+			"node_modules",
+			".git",
+			".nx",
+			".gitignore",
+			".vscode",
+			"dist",
+			"__tests__",
+			"vite.config.ts"
+		],
+		"enabled": true,
+		"rules": {
+			"suspicious": {
+				"noExplicitAny": "off",
+				"noImplicitAnyLet": "off"
+			}
+		}
+	}
+}

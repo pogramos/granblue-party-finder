@@ -1,0 +1,25 @@
+{
+	"name": "granblue-party-finder",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"workspaces": ["packages/*", "projects/*"],
+	"preconstruct": {
+		"packages": ["packages/*"]
+	},
+	"scripts": {
+		"@frontend": "yarn workspace @gbpf/frontend",
+		"dev": "yarn @frontend dev",
+		"build": "yarn preconstruct build && yarn @frontend build",
+		"preview": "yarn @frontend preview",
+		"lint": "biome check .",
+		"lint:fix": "biome check --apply .",
+		"postinstall": "preconstruct dev"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.5.3",
+		"@preconstruct/cli": "^2.8.3",
+		"lefthook": "^1.6.5",
+		"lerna": "^8.1.2"
+	}
+}

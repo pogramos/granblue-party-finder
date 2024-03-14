@@ -1,0 +1,47 @@
+{
+	"name": "@gbpf/frontend",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"description": "A simple partyfinder for Granblue Fantasy:Relink game",
+	"keywords": ["granblue", "fantasy", "rpg", "party", "finder", "j-rpg"],
+	"author": "Pogramos <pogramos@gmail.com>",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@gbpf/commons": "*",
+		"@tanstack/react-query": "^5.24.8",
+		"@tanstack/react-router": "^1.19.1",
+		"@tanstack/router-devtools": "^1.19.1",
+		"@types/jest": "^29.5.12",
+		"@vitejs/plugin-react": "^4.2.1",
+		"csstype": "3.0.10",
+		"i18next": "^23.10.0",
+		"immer": "^10.0.3",
+		"next": "^14.1.3",
+		"next-themes": "^0.2.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-i18next": "^14.0.5",
+		"tailwindcss-animate": "^1.0.7",
+		"zustand": "^4.5.2"
+	},
+	"devDependencies": {
+		"@tanstack/router-vite-plugin": "^1.19.0",
+		"@types/react": "^18.2.56",
+		"@types/react-dom": "^18.2.19",
+		"@typescript-eslint/eslint-plugin": "^7.0.2",
+		"@typescript-eslint/parser": "^7.0.2",
+		"@vitejs/plugin-react": "^4.2.1",
+		"eslint": "^8.56.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.5",
+		"tailwindcss": "^3.4.1",
+		"typescript": "^5.2.2",
+		"vite": "^5.1.4",
+		"vite-plugin-html": "^3.2.2"
+	}
+}
