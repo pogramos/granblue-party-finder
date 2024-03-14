@@ -17,6 +17,7 @@
 		"@tanstack/react-router": "^1.19.1",
 		"@tanstack/router-devtools": "^1.19.1",
 		"@types/jest": "^29.5.12",
+		"@vercel/speed-insights": "^1.0.10",
 		"@vitejs/plugin-react": "^4.2.1",
 		"csstype": "3.0.10",
 		"i18next": "^23.10.0",
